@@ -4,8 +4,15 @@
   "description": "Practice web crawler.",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node app.js"
   },
   "author": "Megan Roberts",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "pug": "^2.0.3",
+    "puppeteer": "^1.9.0"
+  }
 }
