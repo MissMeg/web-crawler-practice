@@ -1,0 +1,31 @@
+.container-fluid {
+    text-align: center;
+}
+
+/* INDEX STYLES */
+#header {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+#form input {
+    margin-right: 1rem;
+    padding: .5rem;
+}
+
+#form select {
+    margin-right: 1rem;
+    padding: .61rem;
+}
+
+#form button {
+    /* IMDB Yellow */
+    background-color: rgb(245,197,24);
+    /* Center it to the input */
+    margin-bottom: .25rem;
+}
+
+#form button:hover {
+    /* IMDB Yellow */
+    background-color: rgba(245,197,24, 0.75);
+}

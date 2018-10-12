@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 
 //Error page
 app.use((err, req, res, next) => {
-    res.status(rr.status || 500);
+    res.status(err.status || 500);
     res.render('error', {message: err.message})
 });
 
